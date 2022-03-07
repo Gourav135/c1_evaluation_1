@@ -3,11 +3,10 @@ import { useState } from "react";
 
 
 function App() {
-  const [book, setBook] = useState(0);
-  const [pen, setPen] = useState(0);
-  const [notebooks, setNotebooks] = useState(0);
-  const [inkpens, setInkpens] = useState(0);
-
+  const [book, setBook] = useState(13);
+  const [pen, setPen] = useState(10);
+  const [notebooks, setNotebooks] = useState(44);
+  const [inkpens, setInkpens] = useState(78);
 
   return (
     <div className="App">
